@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>NERDS</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="container">
+            <div class="page-header__menu">
+                <a class="logo" href="index.html"></a>
+                <nav class="menu-items">
+                    <ul>
+                        <li><a class="menu-item" href="#">Студия</a></li>
+                        <li><a class="menu-item" href="#">Клиенты</a></li>
+                        <li><a class="menu-item" href="catalog.html">Магазин</a></li>
+                        <li><a class="menu-item" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button type="button" class="busket">Корзина</button>
+            </div>
+            <h1 class="header-inner">Магазин готовых шаблонов</h1>
+        </div>
+    </header>
+    <main class="main-page">
+        <div class="container">
+            <div class="main-content">
+                <div class="site-form">
+                    <form>
+                        <div class="range-filter">
+                            <h3>Стоимость</h3>
+                            <div class="range-controls">
+                                <div class="scale">
+                                    <div class="bar" style="width: 70%"></div>
+                                </div>
+                                <div class="toggle min-toggle"></div>
+                                <div class="toggle max-toggle"></div>
+                            </div>
+                            <div class="price-controls">
+                                от <input type="text" class="min-price" value="0"> до <input type="text" class="max-price" value="15000">
+                            </div>
+                        </div>
+                        <div class="site-verstka">
+                            <h3>Сетка:</h3>
+                            <input name="site-verstka-form" type="radio" value="Адаптивная" id="adaptive" checked>
+                            <label for="adaptive">Адаптивная</label>
+                            <input name="site-verstka-form" type="radio" value="Фиксированная" id="fix">
+                            <label for="fix">Фиксированная</label>
+                            <input name="site-verstka-form" type="radio" value="Резиновая" id="rezin">
+                            <label for="rezin">Резиновая</label>
+                        </div>
+                        <div class="site-features">
+                            <h3>Особенности:</h3>
+                            <input type="checkbox" value="Слайдер" id="slider" checked>
+                            <label for="slider">Слайдер</label>
+                            <input type="checkbox" value="Блок преимуществ" id="blockfeatures">
+                            <label for="blockfeatures">Блок преимуществ</label>
+                            <input type="checkbox" value="Новости" id="news" checked>
+                            <label for="news">Новости</label>
+                            <input type="checkbox" value="Галерея" id="galery">
+                            <label for="galery">Галерея</label>
+                            <input type="checkbox" value="Корзина" id="busket">
+                            <label for="busket">Корзина</label>
+                        </div>
+                        <button type="button" class="btn btn-form" value="Показать">Показать</button>
+                    </form>
+                </div>
+                <div class="items">
+                    <div class="items-sort">
+                        <h3>СОРТИРОВАТЬ</h3>
+                        <ul>
+                            <li><a href="">ПО ЦЕНЕ</a></li>
+                            <li><a href="">ПО ТИПУ</a></li>
+                            <li><a href="">ПО ФУНКЦИОНАЛУ</a></li>
+                        </ul>
+                        <div class="items-sort-arrows">
+                            <button type="button" class="down down-active"></button>
+                            <button type="button" class="up"></button>
+                        </div>
+                    </div>
+                    <div class="item__shablon">
+                        <div class="maket-sedona">
+                            <div class="browser-buttons">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="item__shablon-sedona-image"></div>
+                            <div class="item__shablon-text">
+                                <h3>Sedona</h3>
+                                <p>Информационный сайт<br> для туристов</p>
+                                <a href="#" class="btn">9900 Р.</a>
+                            </div>
+                        </div>
+                        <div class="maket-pink">
+                            <div class="browser-buttons">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="item__shablon-pink-image"></div>
+                            <div class="item__shablon-text">
+                                <h3>Pink App</h3>
+                                <p>Продуктовый лендинг приложения<br> для iOS и Android</p>
+                                <a href="#" class="btn">9900 Р.</a>
+                            </div>
+                        </div>
+                        <div class="maket-barbershop">
+                            <div class="browser-buttons">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="item__shablon-barbershop-image"></div>
+                            <div class="item__shablon-text">
+                                <h3>Barbershop</h3>
+                                <p>Сайт салоны красоты.<br>Для мужчин, да.</p>
+                                <a href="#" class="btn">9900 Р.</a>
+                            </div>
+                        </div>
+                        <div class="maket-mishka">
+                            <div class="browser-buttons">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="item__shablon-mishka-image"></div>
+                            <div class="item__shablon-text">
+                                <h3>Mishka</h3>
+                                <p>Интернет-магазин<br>вязаных игрушек</p>
+                                <a href="#" class="btn">9900 Р.</a>
+                            </div>
+                        </div>
+                        <div class="maket-aplus">
+                            <div class="browser-buttons">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="item__shablon-aplus-image"></div>
+                            <div class="item__shablon-text">
+                                <h3>A Plus</h3>
+                                <p>Лендинг курсов повышения квалификации</p>
+                                <a href="#" class="btn">9900 Р.</a>
+                            </div>
+                        </div>
+                        <div class="maket-kvast">
+                            <div class="browser-buttons">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="item__shablon-kvast-image"></div>
+                            <div class="item__shablon-text">
+                                <h3>КВАСТ</h3>
+                                <p>Промо-сайт производителя крафтового кваса</p>
+                                <a href="#" class="btn">9900 Р.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="paginator">
+                        <ul>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">Cледующая</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <foter class="page-footer">
+        <div class="page-footer__contacts">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1998.6242575185997!2d30.32084906635937!3d59.93837683187613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsINGD0LsuINCRLiDQmtC-0L3RjtGI0LXQvdC90LDRjywg0LQuIDE5Lzg!5e0!3m2!1sen!2sil!4v1483435493148"
+                    width="100%" height="420" frameborder="0" style="border:0" allowfullscreen>
+                  </iframe>
+                <div class="container">
+                    <div class="adress">
+                        <h3>NЁRDS DESIGN STUDIO</h3>
+                        <p>191186, Санкт-Петербург, <br>ул. Б. Конюшенная, д. 19/8<br>
+                            <span class="tel">тел. +7 (812) 275-75-75</span></p>
+                        <a class="btn btn-contacts" href="#">Напишите нам</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="page-footer__social">
+                <div class="social-btns">
+                    <a class="social-btn">
+                        <img class="icon-vk" src="img/icon-vk.png">
+                    </a>
+                    <a class="social-btn">
+                        <img class="icon-fb" src="img/icon-fb.png">
+                    </a>
+                    <a class="social-btn">
+                        <img class="icon-inst" src="img/icon-inst.png">
+                    </a>
+                </div>
+                <div class="social-text-about">
+                    <h2>Давайте дружить, это выгодно!</h2>
+                    <p>Скидка 10% для друзей из социальных сетей.</p>
+                </div>
+            </div>
+        </div>
+        </footer>
+</body>
+
+</html>

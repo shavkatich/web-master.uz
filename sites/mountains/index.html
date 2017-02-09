@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mountains</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="page-header">
+            <nav class="page-header__menu">
+                <div class="wrapper">
+                    <div class="logo">
+                        <a class="page-header__logo" href="index.html"><span class="page-header__logo--blue">Moun</span><span class="page-header__logo--gray">tains</span></a>
+                    </div>
+                    <ul>
+                        <li><a class="page-header__menu-item" href="">Our Story</a></li>
+                        <li><a class="page-header__menu-item page-header__menu-item--active" href="">Service</a></li>
+                        <li><a class="page-header__menu-item" href="">Work</a></li>
+                        <li><a class="page-header__menu-item" href="">Journal</a></li>
+                        <li><a class="page-header__menu-item" href="">Contact</a></li>
+                        <li><a class="page-header__menu-item" href="">Work</a></li>
+                    </ul>
+                    <button class="btn btn-call-us" type="submit">Call us</button>
+                </div>
+            </nav>
+            <div class="wrapper">
+                <div class="page-header__content">
+                    <h1 class="page-header__title">Travel with us <span>to the <b class="page-header__big-letter">M</b>ountains</span></h1>
+                    <p class="page-header__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid</p>
+                    <button class="btn btn-content" type="submit">Order now</button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="about">
+                <div class="wrapper">
+                    <div class="about__content">
+                        <h3 class="about__title">About us</h3>
+                        <p class="about__text">Aliquam sed posuere urna, et gravida nisl. Praesent interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel lectus at luctus.</p>
+                        <button class="btn btn-about" type="submit">Read more</button>
+                    </div>
+                    <div class="about__images">
+                        <img class="about__image-big" src="img/about-image-1.jpg" width="806" height="570" alt="#">
+                        <img class="about__image-small" src="img/about-image-2.jpg" width="350" height="350" alt="#">
+                    </div>
+                </div>
+            </section>
+            <section class="journal">
+                <h2 class="journal__title">Our journal</h2>
+                <div class="journal__items">
+                    <div class="journal__item journal__image-item-1">
+                        <svg class="icon-heart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81" height="81" viewBox="0 0 81 81">
+                        <image data-name="Vector Smart Object" width="81" height="81" xlink:href="data:img/png;base64,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"/>
+                      </svg>
+                    </div>
+                    <div class="journal__item journal__text-item">
+                        <p class="journal__rubric">Love</p>
+                        <b class="journal__item-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</b>
+                        <p class="journal__item-text">You know how to make best coffee in the universe? Or, maybe you’re very good in designing gloves? Tell everyone about your experience and skills.</p>
+                        <span class="journal__item-number">01</span>
+                    </div>
+                    <div class="journal__item journal__image-item-2">
+                        <svg class="icon-drop" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59" height="74" viewBox="0 0 59 74">
+                        <image data-name="Vector Smart Object" width="59" height="74" xlink:href="data:img/png;base64,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"/>
+                      </svg>
+                    </div>
+                    <div class="journal__item journal__text-item">
+                        <p class="journal__rubric">Tree</p>
+                        <b class="journal__item-title">Lorem ipsum dolor sit amet, <span>consectetur</span> adipisicing elit,</b>
+                        <p class="journal__item-text">The way to a successful brand is hard, but always very interesting. Share the full story of your project – from the very first day until now.</p>
+                        <span class="journal__item-number">02</span>
+                    </div>
+                    <div class="journal__item journal__image-item-3">
+                        <svg class="icon-list" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+                        <image data-name="Vector Smart Object" width="65" height="65" xlink:href="data:img/png;base64,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"/>
+                      </svg>
+                    </div>
+                    <div class="journal__item journal__text-item">
+                        <p class="journal__rubric">Water</p>
+                        <b class="journal__item-title">LITTLE PIECES OFOUR PROUDNESS</b>
+                        <p class="journal__item-text">What do you do better than your competitors? What are you proud of? What details and advantages of your product you want people to know about?</p>
+                        <span class="journal__item-number">03</span>
+                    </div>
+                </div>
+            </section>
+            <section class="trip">
+                <div class="wrapper">
+                    <h3 class="trip__title">Do you wanna go?</h3>
+                    <p class="trip__text">Aliquam sed posuere urna, et gravida nisl. Praesent interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel lectus at luctus.</p>
+                    <form class="trip__form">
+                        <fieldset>
+                            <input type="text" name="name" placeholder="Your name:">
+                            <input type="tel" name="tel" placeholder="Your phone:">
+                            <button class="btn btn-trip" type="submit">Order now</button>
+                            <p class="trip__form-security">
+                                <svg class="icon-lock" xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16">
+                            <defs>
+                              <style>
+                                .cls-1 { fill: #36aeea; fill-rule: evenodd; }
+                              </style>
+                            </defs>
+                            <path id="Lock_locked" data-name="Lock locked" class="cls-1" d="M13 6h-2V4a4 4 0 0 0-8 0v2H1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1zm-6 6a1 1 0 1 1 1-1 1 1 0 0 1-1 1zm2-6H5V4a2 2 0 0 1 4 0v2z"/>
+                          </svg>* Your data will not be transferred
+                            </p>
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+            <section class="work">
+                <h2 class="journal__title">HOW WE WORK</h2>
+                <div class="work__items">
+                    <div class="work__item">
+                        <span class="work__item-number work__item-number-1">1</span>
+                        <img class="work__image-1" src="img/work-image-1.png" width="179" height="179" alt="#">
+                        <b class="work__item-title">Lorem ipsum dolor sit</b>
+                        <p class="work__item-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                    <div class="work__item">
+                        <span class="work__item-number work__item-number-2">2</span>
+                        <img class="work__image-2" src="img/work-image-2.png" width="179" height="179" alt="#">
+                        <b class="work__item-title">Lorem ipsum dolor sit</b>
+                        <p class="work__item-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                    <div class="work__item">
+                        <span class="work__item-number  work__item-number-3">3</span>
+                        <img class="work__image-3" src="img/work-image-3.png" width="179" height="179" alt="#">
+                        <b class="work__item-title">Lorem ipsum dolor sit</b>
+                        <p class="work__item-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                    <div class="work__item">
+                        <span class="work__item-number work__item-number-4">4</span>
+                        <img class="work__image-4" src="img/work-image-4.png" width="179" height="179" alt="#">
+                        <b class="work__item-title">Lorem ipsum dolor sit</b>
+                        <p class="work__item-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                </div>
+            </section>
+            <section class="travel">
+                <div class="wrapper">
+                    <div class="travel__items">
+                        <h2 class="travel__title">Travel with us</h2>
+                        <div class="travel__item travel__item-1">
+                            <div class="travel__stars">
+                                <img class="travel__star" src="img/icon-star.png" width="38" height="38">
+                                <img class="travel__star" src="img/icon-star.png" width="38" height="38">
+                                <img class="travel__star" src="img/icon-star.png" width="38" height="38">
+                                <img class="travel__star" src="img/icon-star.png" width="38" height="38">
+                            </div>
+                            <b class="travel__item-title">Carpathian</b>
+                            <p class="travel__item-text">Lorem ipsum dolor si amet, consectetur</p>
+                            <div class="travel__prices">
+                                <p class="travel__old-price">3150$</p>
+                                <p class="travel__new-price">$793</p>
+                            </div>
+                        </div>
+                        <div class="travel__item travel__item-2">
+                            <div class="travel__stars">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                            </div>
+                            <b class="travel__item-title">Alps</b>
+                            <p class="travel__item-text">Lorem ipsum dolor si amet, consectetur</p>
+                            <div class="travel__prices">
+                                <p class="travel__old-price">3150$</p>
+                                <p class="travel__new-price">$1893</p>
+                            </div>
+                        </div>
+                        <div class="travel__item travel__item-3">
+                            <div class="travel__stars">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                            </div>
+                            <b class="travel__item-title">Pyrenees</b>
+                            <p class="travel__item-text">Lorem ipsum dolor si amet, consectetur</p>
+                            <div class="travel__prices">
+                                <p class="travel__old-price">3150$</p>
+                                <p class="travel__new-price">$2593</p>
+                            </div>
+                        </div>
+                        <div class="travel__item travel__item-4">
+                            <div class="travel__stars">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                            </div>
+                            <b class="travel__item-title">Rocky</b>
+                            <p class="travel__item-text">Lorem ipsum dolor si amet, consectetur</p>
+                            <div class="travel__prices">
+                                <p class="travel__old-price">3150$</p>
+                                <p class="travel__new-price">$2123</p>
+                            </div>
+                        </div>
+                        <div class="travel__item travel__item-5">
+                            <div class="travel__stars">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                                <img class="travel__star" src="img/icon-star.png" width="22" height="16">
+                            </div>
+                            <b class="travel__item-title">Kavkaz</b>
+                            <p class="travel__item-text">Lorem ipsum dolor si amet, consectetur</p>
+                            <div class="travel__prices">
+                                <p class="travel__old-price">3150$</p>
+                                <p class="travel__new-price">$593</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery">
+                <h2 class="gallery__title">Gallery</h2>
+                <div class="gallery__items">
+                    <div class="gallery__item">
+                        <img class="gallery__image-1" src="img/gallery-image-1.jpg" width="263" height="343" alt="#">
+                        <img class="gallery__image-4" src="img/gallery-image-4.jpg" width="263" height="281" alt="#">
+                    </div>
+                    <div class="gallery__item">
+                        <img class="gallery__image-2" src="img/gallery-image-2.jpg" width="361" height="243" alt="#">
+                        <img class="gallery__image-5" src="img/gallery-image-5.jpg" width="361" height="381" alt="#">
+                    </div>
+                    <div class="gallery__item">
+                        <img class="gallery__image-3" src="img/gallery-image-3.jpg" width="457" height="343" alt="#">
+                        <img class="gallery__image-6" src="img/gallery-image-6.jpg" width="455" height="281" alt="#">
+                    </div>
+                </div>
+            </section>
+            <section class="brands">
+                <div class="wrapper">
+                    <a class="brands__slack" href="#">
+                        <img class="brands__slack-logo" src="img/logo-slack.png" width="80" height="24">
+                    </a>
+                    <a class="brands__adobe" href="#">
+                        <img class="brands__adobe-logo" src="img/logo-adobe.png" width="38" height="34">
+                    </a>
+                    <a class="brands__google" href="#">
+                        <img class="brands__google-logo" src="img/logo-google.png" width="80" height="27">
+                    </a>
+                    <a class="brands__facebook" href="#">
+                        <img class="brands__facebook-logo" src="img/logo-facebook.png" width="80" height="17">
+                    </a>
+                    <a class="brands__spotify" href="#">
+                        <img class="brands__spotify-logo" src="img/logo-spotify.png" width="80" height="24">
+                    </a>
+                    <a class="brands__nike" href="#">
+                        <img class="brands__nike-logo" src="img/logo-nike.png" width="70" height="25">
+                    </a>
+                </div>
+            </section>
+            <section class="clients">
+                <div class="wrapper">
+                    <h2 class="clients__title">Our Clients Say</h2>
+                    <div class="clients__items">
+                        <div class="client__item">
+                            <p class="client__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                                esse </p>
+                            <img class="client__item-image" src="img/client-image-1.png" width="65" height="65" alt="#">
+                            <b class="clients__item-name">Pavliv Yaroslav <span class="clients__item-name--profession">Web designer</span></b>
+                        </div>
+                        <div class="client__item">
+                            <p class="client__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                                esse </p>
+                            <img class="client__item-image" src="img/client-image-2.png" width="65" height="65" alt="#">
+                            <b class="clients__item-name">John Scott <span class="clients__item-name--profession">The Fringe</span></b>
+                        </div>
+                    </div>
+                    <form class="clients__form">
+                        <h3 class="clients__form-title">Contacts</h3>
+                        <p class="clients__form-text">Sign up for our newsletter to receive updates</p>
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="tel" name="tel" placeholder="Phone">
+                        <input type="email" name="email" placeholder="E-mail">
+                        <button class="btn btn-clients" type="submit">Send</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="page-footer">
+            <div class="wrapper">
+                <div class="page-footer__copyright">
+                    <p class="page-footer__copyright-text">All rights reserved 2015</p>
+                </div>
+                <div class="page-footer__social-btns">
+                    <a class="page-footer__tw" href="#"></a>
+                    <a class="page-footer__fb" href="#"></a>
+                    <a class="page-footer__vk" href="#"></a>
+                </div>
+                <div class="page-footer__phone">
+                    <p class="page-footer__phone-text">1 234 243 123</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

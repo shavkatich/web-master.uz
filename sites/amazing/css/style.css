@@ -1,0 +1,354 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  color: #919191;
+}
+
+main {
+  width: 1600px;
+  overflow: hidden;
+  margin: auto;
+}
+
+h1 {
+  font-size: 72px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  color: #000;
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #000;
+  line-height: 45px;
+  margin-top: 10px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #666;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 18px;
+  color: #fff;
+}
+
+p.large {
+font-size: 36px;
+color: #666666;
+padding-top: 29px;
+font-weight: 300;
+letter-spacing: -1px;
+line-height: 43px;
+}
+
+header {
+  height: 900px;
+  background-image: url(..//img/hero-bg.jpg);
+}
+
+header .logo {
+  padding: 88px 0 0 210px;
+  float: left;
+}
+
+header .menu {
+  padding: 107px 235px 0 0;
+  float: right;
+  width: 31px;
+  height: 43px;
+  text-align: center;
+}
+
+header .menu img {
+  display: block;
+  margin: auto;
+}
+
+header .menu a {
+  font-size: 12px;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header .menu span {
+  display: block;
+  margin-top: 11px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+header .h1 {
+  float: left;
+  padding: 180px 0 0 210px;
+}
+
+header h2 {
+  float: left;
+}
+
+h2 span {
+  font-weight: 900;
+}
+
+.about {
+  height: 500px;
+}
+
+.about .left-column {
+  width: 50%;
+  height: 500px;
+  float: left;
+  background-image: url(../img/about-left-column.jpg);
+}
+
+.about .right-column {
+  width: 50%;
+  height: 500px;
+  float: right;
+  padding: 108px 0 0 57px;
+  box-sizing: border-box;
+}
+
+.gallery {
+  height: 1030px;
+}
+
+.gallery-top {
+  height: 520px;
+}
+
+.thumbnail {
+  width: 25%;
+  height: inherit;
+  float: left;
+}
+
+.thumbnail:nth-child(1) {
+  background-image: url(../img/gallery-thumbnails1.jpg);
+  background-position: 0 -91px;
+}
+
+.thumbnail:nth-child(2) {
+  background-image: url(../img/gallery-thumbnails2.jpg);
+  background-position: -69px -42px;
+}
+
+.thumbnail:nth-child(3) {
+  background-image: url(../img/gallery-thumbnails3.jpg);
+  background-position: -12px -10px;
+}
+
+.thumbnail:nth-child(4) {
+  background-image: url(../img/gallery-thumbnails4.jpg);
+  background-position: 400px -11px;
+}
+
+.gallery-bottom {
+  height: 510px;
+  background-color: #3f729b;
+}
+
+.gallery-bottom h3,
+.gallery-bottom .large,
+.gallery-bottom a {
+  color: #fff;
+}
+
+.gallery-bottom .instagramm {
+  padding-left: 211px;
+  padding-top: 114px;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.gallery-bottom .large {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+}
+
+.btn {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 20px 20px 16px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 33px;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 3px;
+}
+
+.gallery-bottom .thumbnail {
+  background-image: url(../img/gallery-thumbnails5.jpg);
+  background-position: 425px -9px;
+}
+.music{
+  height: 1420px;
+}
+.music .left{
+  width: 400px;
+  height: 900px;
+  float: left;
+  background-color: #282b2f;
+}
+.music .right{
+  width: 1200px;
+  height: 900px;
+  float: right;
+  background-image: url(../img/music_photo.jpg);
+  background-position: right 0;
+}
+.video-title{
+  width: 400px;
+  height: 500px;
+  background-color: #212227;
+  box-sizing: border-box;
+  padding-top: 140px;
+  padding-left: 60px;
+  color: #fff;
+  line-height: 21px;
+}
+.video-title h3,
+.video-title h4,
+.video-title .btn{
+  color: #2ebd59;
+}
+.video-title h4 {
+    padding-top: 12px;
+    padding-bottom: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.video-title .btn{
+  margin-top: 50px;
+  border-color: #2ebd59;
+  letter-spacing: 0;
+}
+.spotify,
+.itunes{
+  height: 520px;
+  float: left;
+  padding-top: 135px;
+  box-sizing: border-box;
+  width: 50%;
+}
+.spotify{
+  background-color: #2ebd59;
+  padding-left: 210px;
+}
+.itunes{
+  background-color: #282b2f;
+  padding-left: 60px;
+}
+.spotify h3,
+.spotify .large,
+.spotify .btn,
+.itunes h3,
+.itunes .large,
+.itunes .btn{
+  color: #fff;
+  border-collapse: #fff;
+}
+
+footer{
+  height: 605px;
+  background-color: #212227;
+  padding-top: 92px;
+  padding-left: 210px;
+  box-sizing: border-box;
+}
+.footer-left{
+  width: 282px;
+  height: inherit;
+  margin-right: 120px;
+  float: left;
+}
+.footer-center{
+  width: 180px;
+  height: inherit;
+  margin-right: 120px;
+  float: left;
+}
+.footer-right{
+  width: 480px;
+  height: inherit;
+  float: left;
+}
+footer h4{
+  padding-bottom: 23px;
+  text-transform: uppercase;
+}
+footer p{
+  padding-bottom: 10px;
+  line-height: 21px;
+}
+footer input{
+  height: 60px;
+  width: 100%;
+  padding-left: 20px;
+  box-sizing: border-box;
+  background-color: #4d4e52;
+  color: #919191;
+  border: none;
+}
+
+.footer-right a{
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  border: 1px solid #fff;
+  line-height: 80px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.subscribe{
+  margin-bottom: 80px;
+}
+footer ul{
+  list-style: none;
+}
+footer li{
+  line-height: 24px;
+}
+footer li:before{
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 16px;
+  background-image: url(../img/social-sprite.png);
+  margin-right: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+footer li:nth-child(1)::before{
+  background-position: 0 0;
+}
+footer li:nth-child(2)::before{
+  background-position: 0 -21.25px;
+}
+footer li:nth-child(3)::before{
+  background-position: 0 -46.25px;
+}
+footer li:nth-child(4)::before{
+  background-position: 0 -69.25;
+}
